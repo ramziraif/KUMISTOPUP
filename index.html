@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Tambahkan di dalam <head> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <meta charset="UTF-8">
+  <title>⚡KUMISTOPUP - Beranda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- ==== FLOATING CUSTOMER SERVICE BUTTON ==== -->
+<a href="https://wa.me/6285379330611" target="_blank" 
+   style="position: fixed; bottom: 20px; right: 20px; 
+          background-color: none; color: rgb(124, 243, 87); 
+          padding: 12px 16px; border-radius: 50px;
+          text-decoration: none; font-weight: bold; 
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+          display: flex; align-items: center; z-index: 1000;">
+  
+  <img src="Logo WA Vector.png" alt="CS" style="width: 30px; height: 23px; margin-right: 8px;">
+  CS
+</a>
+
+<body>
+  
+
+  <!-- ==== HEADER / NAVIGATION ==== -->
+  <header class="navbar">
+    <div class="logo">⚡KUMISTOPUP</div>
+    <nav>
+      <a href="index.html" class="active">BERANDA</a>
+      <a href="produk.html">PRODUK</a>
+      <a href="form.html">FORM</a>
+    </nav>
+  </header>
+
+  <!-- ==== SEARCH BAR ==== -->
+  <section class="search-bar">
+    <input type="text" placeholder="🔍 Cari produk...">
+    <a href="produk.html" class="kategori">All Game</a>
+  </section>
+
+ <!-- ==== BANNER (CAROUSEL) ==== -->
+<section class="banner">
+  <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#bannerCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#bannerCarousel" data-slide-to="1"></li>
+      <li data-target="#bannerCarousel" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Carousel images -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="MLBB_Naruto_2025.jpg" class="d-block w-100" alt="Mobile Legends">
+      </div>
+      <div class="carousel-item">
+        <img src="WhatsApp Image 2025-06-15 at 18.16.43_3927cdb3.jpg" class="d-block w-100" alt="MLBB Naruto 2025">
+      </div>
+      <div class="carousel-item">
+        <img src="WhatsApp Image 2025-06-15 at 18.16.43_8962d46a.jpg" class="d-block w-100" alt="ML Event Banner">
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#bannerCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#bannerCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</section>
+
+
+  <!-- ==== KATEGORI MENU ==== -->
+  <section class="kategori-menu">
+    <a href="#" class="active">TOP UP</a>
+  </section>
+
+  <!-- ==== LAYANAN POPULER ==== -->
+  <section class="content-section">
+    <div class="section-title">Layanan Populer</div>
+    <div class="game-list">
+
+      <!-- GAME MLBB -->
+      <a href="form.html?game=mlbb" style="text-decoration: none; color: inherit;">
+        <div class="game-card">
+          <img src="mobile-legends-redeem-codes-1024x567.jpg" alt="Mobile Legend">
+          <div class="game-name">Mobile legend</div>
+        </div>
+      </a>
+
+      <!-- GAME FREE FIRE -->
+      <a href="form.html?game=freefire" style="text-decoration: none; color: inherit;">
+        <div class="game-card">
+          <img src="ff.webp" alt="Free Fire">
+          <div class="game-name">Free Fire</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ==== ALL GAME ==== -->
+  <section class="content-section">
+    <div class="section-title">All Game</div>
+    <div class="game-list">
+
+      <!-- Salin dan ubah link + gambar sesuai kebutuhan -->
+      <a href="form.html?game=freefire">
+        <div class="game-card">
+          <img src="ff.webp" alt="Free Fire">
+          <div class="game-name">Free Fire</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=pubg">
+        <div class="game-card">
+          <img src="pubg.webp" alt="PUBG">
+          <div class="game-name">PUBG Mobile</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=roblox">
+        <div class="game-card">
+          <img src="roblox.png" alt="Roblox">
+          <div class="game-name">Roblox</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=cod">
+        <div class="game-card">
+          <img src="call of duty.jpg" alt="Call of duty">
+          <div class="game-name">Call of duty</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=genshin">
+        <div class="game-card">
+          <img src="genshin-impact-logo-png_seeklogo-389677.png" alt="Genshin impact">
+          <div class="game-name">Genshin impact</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=mlbb">
+        <div class="game-card">
+          <img src="mobile-legends-redeem-codes-1024x567.jpg" alt="Mobile Legend">
+          <div class="game-name">Mobile legend</div>
+        </div>
+      </a>
+
+      <a href="form.html?game=csgo">
+        <div class="game-card">
+          <img src="cs go.jpg" alt="CSGO2">
+          <div class="game-name">CSGO2</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+<!-- ==== FOOTER ==== -->
+<footer style="background-color: #111; color: white; padding: 30px 40px;">
+  <div style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+    <!-- Logo + Teks Penjelasan -->
+    <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px;">
+      <img src="ChatGPT Image Jun 15, 2025, 03_56_20 PM.png" alt="⚡KUMISTOPUP" style="height: 100px; border-radius: 21px;">
+      <div>
+        <h2 style="margin: 10; color: #ffcc00;">⚡KUMISTOPUP</h2>
+        <p style="margin: 5px 0 0;">
+          KUMISTOPUP adalah tempat top up game yang aman, murah, dan terpercaya.<br>
+          Proses cepat 1–3 Detik, dan layanan kami buka 24 jam non-stop. Kami mendukung kemudahan transaksi.<br>
+          Harga bersaing, stok selalu tersedia, dan tanpa perlu login akun game. Jika ada kendala,
+          Silahkan klik logo CS di kanan bawah website ini untuk bantuan langsung via WhatsApp.
+        </p>
+      </div>
+    </div>
+
+    <!-- Ikon Sosial Media -->
+    <div style="margin-top: -10px;">
+        <a href="https://www.tiktok.com/@fynnxx0?_t=ZS-8xDrtxuvVCB&_r=1" style="margin-right: 50px;">
+          <img src="download (1).webp" alt="TikTok" width="45"> TikTok
+        </a>
+        <a href="ramziraif5@gmail.com" style="margin-left: 50px;">
+          <img src="download.webp" alt="Gmail" width="42"> Gmail
+        </a>
+      </div>
+    </div>
+
+
+    <!-- Tautan Footer -->
+    <div style="margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+      <div>
+        <h4 style="color: #c59b6d;">Peta Situs</h4>
+        <p><a href="#" style="color: white; text-decoration: none;">Beranda</a></p>
+        <p><a href="https://wa.me/6285379330611" style="color: white; text-decoration: none;">Hubungi Kami</a></p>
+        <h4 style="color: #c59b6d;">Legalitas</h5>
+        <p><a href="syaratketentuan.html" style="color: white; text-decoration: none;">Syarat Dan Ketentuan</a></p>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
